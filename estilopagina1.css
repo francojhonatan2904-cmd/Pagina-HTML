@@ -1,0 +1,140 @@
+style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        
+                @font-face {
+               font-family: "CloisterBlack";
+            src: url("CloisterBlack.ttf");
+}
+
+        body{
+            background-image: url("WhatsApp\ Image\ 2026-06-02\ at\ 5.04.36\ PM.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            font-family: "CloisterBlack"
+
+            
+            
+            
+
+        }
+
+        #PlayboiCarti{
+            text-align: center;
+            color: #b80c0c;
+        }
+
+        #Biografia{
+            text-align: center;
+            padding: 20px;
+        
+        }
+
+        #Biografia p{
+            text-align: center;
+            padding: 20px;
+        }
+
+        
+
+        #Biografia{
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        #Discografia{
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .albums{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .albums img{
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .albums img:hover{
+            transform: scale(1.15);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+        }
+        
+
+
+        #Galeria{
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        
+        }
+
+        #Impactocultural{
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        #Impactocultural{
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .outfits{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .outfits img{
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+
+        }
+
+        #Redes{
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+       }
+
+        #Redes a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #Redes a:hover{
+            color: #b80c0c;
+        }  
+    
